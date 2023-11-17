@@ -23,7 +23,7 @@
     .footer{
         width: 100%;
         padding: 0;
-        display:block;
+        flex-direction: column-reverse;
     }
     .footer div{
         max-width: 500px;
