@@ -1,14 +1,53 @@
 .box{
     display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 90%;
     margin: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .box div{
+    position: relative;
     width: 20%;
     margin: 1%;
+    max-width: 300px;
+    min-width: 200px;
+}
+.box img{
+    transition: all 1s ease;
+}
+.box p{
+    padding-left: 15px;
+    transition: all 0.8s ease;
 }
 .producto{
     width: 100%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.precio{
+    position: absolute;
+    bottom: 45px;
+    left: 10px;
+    transition: all 1s ease;
+}
+.box div:hover .precio{
+    background-color: rgba(0, 0, 0, 0.164);
+    padding: 10px;
+    font-size: 20px;
+}
+.box div:hover .producto{
+    transform: scale(1.05);
+}
+.box div:hover p{
+    transform: scale(1.1);
+}
+.box div:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    .box div{
+        width: 80%;
+        max-width: 100%;
+    }
 }
