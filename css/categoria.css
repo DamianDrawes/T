@@ -1,0 +1,38 @@
+.categoria{
+    display: flex;
+    justify-content: center;
+}
+
+.categoria div{
+    position: relative;
+    width: 25%;
+    padding: 50px;
+}
+
+.imgCategoria{
+    width: 100%;
+    height: 100%;
+    transition: all 0.15s ease;
+}
+
+.pCategoria{
+    position: absolute;
+    font-size: 60px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.categoria div:hover .imgCategoria{
+    filter: blur(2px);
+    opacity: 0.6;
+    border: 3px solid #333;
+}
+.categoria div:hover .pCategoria{
+    opacity: 1;
+}
+.categoria div:hover{
+    cursor: pointer;
+}

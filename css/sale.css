@@ -1,0 +1,15 @@
+.textSale p{
+    text-align: center;
+    font-size: 15px;
+}
+.textSale{
+    width: 100%;
+    background-color: rgb(154, 75, 228);
+    padding: 2px 0;
+}
+#sale{
+    font-size: 30px;
+}
+#ahora{
+    font-size: 20px;
+}
