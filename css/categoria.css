@@ -1,6 +1,7 @@
 .categoria{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .categoria div{
@@ -35,4 +36,13 @@
 }
 .categoria div:hover{
     cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .categoria div{
+        width: 60%;
+    }
+    .pCategoria{
+        font-size: 40px;
+    }
 }

@@ -48,3 +48,9 @@
 #Converse:hover .imgvc{
     filter: saturate(180%);
 }
+
+@media screen and (max-width:600px){
+    .vsImg{
+        width: 100%;
+    }
+}

@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
     .box div{
         width: 80%;
         max-width: 100%;
