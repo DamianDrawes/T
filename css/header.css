@@ -73,4 +73,8 @@ body,html{
         align-items: center;
         margin: auto;
     }
+    .divF{
+        margin:auto;
+        height: 64px;
+    }
 }
